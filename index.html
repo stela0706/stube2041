@@ -2826,226 +2826,6 @@
         dashLabSub:{zh:'虛擬實驗室操作記錄', en:'Virtual lab operation records'},
         dashOverallTitle:{zh:'整體進度', en:'Overall Progress'},
         dashOverallSub:{zh:'綜合各功能使用情況', en:'Combined progress across all features'},
-
-        // ===== 知識卡片 - 化學鍵 (Bonding) =====
-        kcBondingTitle:{zh:'🔗 化學鍵類型（Chemical Bonding）', en:'🔗 Chemical Bonding Types'},
-        kcBondThType:{zh:'類型', en:'Type'},
-        kcBondThCond:{zh:'形成條件', en:'Formation Condition'},
-        kcBondThFeat:{zh:'特點', en:'Characteristics'},
-        kcBondThExam:{zh:'例子', en:'Examples'},
-        kcBondIonic:{zh:'離子鍵 (Ionic)', en:'Ionic Bond'},
-        kcBondIonicCond:{zh:'金屬 + 非金屬', en:'Metal + Non-metal'},
-        kcBondIonicFeat:{zh:'電子轉移 → 離子', en:'Electron transfer → Ions'},
-        kcBondIonicExam:{zh:'NaCl, MgO', en:'NaCl, MgO'},
-        kcBondCovalent:{zh:'共價鍵 (Covalent)', en:'Covalent Bond'},
-        kcBondCovalentCond:{zh:'非金屬 + 非金屬', en:'Non-metal + Non-metal'},
-       kcBondCovalentFeat:{zh:'共用電子對', en:'Shared electron pair(s)'},
-        kcBondCovalentExam:{zh:'H₂O, CO₂, CH₄', en:'H₂O, CO₂, CH₄'},
-        kcBondMetallic:{zh:'金屬鍵 (Metallic)', en:'Metallic Bond'},
-        kcBondMetallicCond:{zh:'金屬原子之間', en:'Between metal atoms'},
-        kcBondMetallicFeat:{zh:'自由電子海', en:'Sea of free electrons'},
-        kcBondMetallicExam:{zh:'Fe, Cu, Na', en:'Fe, Cu, Na'},
-        kcBondENDiff:{zh:'<strong>電負性差 (Electronegativity Difference)：</strong>', en:'<strong>Electronegativity Difference:</strong>'},
-        kcBondRule1:{zh:'差值 > 1.7 → 主要為<strong style="color:#fbbf24;">離子鍵</strong>', en:'Diff > 1.7 → Mainly <strong style="color:#fbbf24;">Ionic</strong>'},
-        kcBondRule2:{zh:'差值 0.4 ~ 1.7 → 主要為<strong style="color:#34d399;">極性共價鍵</strong>', en:'Diff 0.4~1.7 → Mainly <strong style="color:#34d399;">Polar Covalent</strong>'},
-        kcBondRule3:{zh:'差值 < 0.4 → <strong style="color:#34d399;">非極性共價鍵</strong>', en:'Diff < 0.4 → <strong style="color:#34d399;">Non-polar Covalent</strong>'},
-        kcBondRule4:{zh:'差值 = 0 → 純非極性共價鍵（同種元素）', en:'Diff = 0 → Pure non-polar (same element)'},
-
-        // σ鍵 vs π鍵
-        kcSigmaPiTitle:{zh:'⚛️ σ鍵 vs π鍵 (Sigma & Pi Bonds)', en:'⚛️ Sigma (σ) vs Pi (π) Bonds'},
-        kcSigmaPiIntro:{zh:'<strong>共價鍵的兩種類型：</strong>', en:'<strong>Two types of covalent bonds:</strong>'},
-        kcSigmaName:{zh:'<strong>σ 鍵 (sigma bond)</strong>：頭對頭(head-to-head)重疊', en:'<strong>Sigma (σ) bond</strong>: Head-to-head overlap'},
-        kcSigmaF1:{zh:'電子雲沿核間軸線對稱分佈，<strong>重疊程度最大</strong>', en:'Electron cloud symmetric along internuclear axis, <strong>maximum overlap</strong>'},
-        kcSigmaF2:{zh:'所有單鍵都是 σ 鍵；雙鍵/三鍵中也有 1 個 σ 鍵', en:'All single bonds are σ; double/triple bonds have 1 σ bond'},
-        kcSigmaF3:{zh:'可自由旋轉（不影響鍵強度）', en:'Free rotation (does not affect bond strength)'},
-        kcPiName:{zh:'<strong>π 鍵 (pi bond)</strong>：平行側面(side-by-side)重疊', en:'<strong>Pi (π) bond</strong>: Side-by-side (parallel) overlap'},
-        kcPiF1:{zh:'電子雲在核間軸線上下方，<strong>重疊程度較小</strong>', en:'Electron cloud above/below axis, <strong>less overlap</strong>'},
-        kcPiF2:{zh:'只存在於雙鍵(1個π)和三鍵(2個π)中', en:'Only in double (1π) and triple (2π) bonds'},
-        kcPiF3:{zh:'<strong>不能自由旋轉</strong>（會破壞π鍵重疊）', en:'<strong>No free rotation</strong> (would break π overlap)'},
-        kcPiF4:{zh:'比 σ 鍵弱，容易斷裂（如加成反應）', en:'Weaker than σ, easier to break (e.g., addition reactions)'},
-        kcSigmaPiExample:{zh:'<strong>例子：</strong>C₂H₄(乙烯)：C=C = 1σ + 1π | C₂H₂(乙炔)：C≡C = 1σ + 2π', en:'<strong>Example:</strong> C₂H₄(Ethene): C=C = 1σ+1π | C₂H₆(Ethyne): C≡C = 1σ+2π'},
-
-        // 化合價
-        kcValencyTitle:{zh:'🔢 化合價與化學式 (Valency)', en:'🔢 Valency & Chemical Formula'},
-        kcValencyDef:{zh:'<strong>化合價 (Valency)</strong>：元素形成化合物時結合的原子數目能力', en:'<strong>Valency</strong>: Combining power of an element in compounds'},
-        kcValencyCommon:{zh:'<strong>常見化合價</strong>：H(+1), O(-2), Na(+1), Ca(+2), Al(+3), Cl(-1), NH₄⁺(+1), OH⁻(-1)', en:'<strong>Common valencies</strong>: H(+1), O(-2), Na(+1), Ca(+2), Al(+3), Cl(-1), NH₄⁺(+1), OH⁻(-1)'},
-        kcValencyRule:{zh:'<strong>寫化學式原則</strong>：「正前負後、交叉約簡」', en:'<strong>Formula writing rule</strong>: "Positive first, negative last, cross-simplify"'},
-        kcValencyExample:{zh:'<strong>例</strong>：Al³⁺ + SO₄²⁻ → Al₂(SO₄)₃', en:'<strong>Example</strong>: Al³⁺ + SO₄²⁻ → Al₂(SO₄)₃'},
-        kcValencyOxRule:{zh:'<strong>氧化數規則</strong>：', en:'<strong>Oxidation number rules:</strong>'},
-        kcValencyOx1:{zh:'單質中元素氧化數為 0', en:'Elements in elemental form: oxidation number = 0'},
-        kcValencyOx2:{zh:'化合物中各元素氧化數代數和為 0', en:'Sum of oxidation numbers in a compound = 0'},
-        kcValencyOx3:{zh:'離子團中各元素氧化數代數和等於離子電荷', en:'Sum in polyatomic ion equals ion charge'},
-        kcValencyOx4:{zh:'O 通常為 -2，H 通常為 +1（過氧化物中 H 為 -1）', en:'O is usually -2, H is usually +1 (-1 in peroxides)'},
-
-        // ===== 知識卡片 - 酸鹼 (Acid-Base) =====
-        kcABTitle:{zh:'🧪 酸鹼理論（Acid-Base Theories）', en:'🧪 Acid-Base Theories'},
-        kcABThTheory:{zh:'理論', en:'Theory'},
-        kcABThAcid:{zh:'酸 (Acid)', en:'Acid'},
-        kcABThBase:{zh:'鹼 (Base)', en:'Base'},
-        kcABArrhenius:{zh:'<strong>阿瑞尼士<br>(Arrhenius)</strong>', en:'<strong>Arrhenius</strong>'},
-        kcABArrA:{zh:'產生 H⁺', en:'Produces H⁺'},
-        kcABArrB:{zh:'產生 OH⁻', en:'Produces OH⁻'},
-        kcABBL:{zh:'<strong>布朗斯特-勞里<br>(Brønsted-Lowry)</strong>', en:'<strong>Brønsted-Lowry</strong>'},
-        kcABBLA:{zh:'質子給予者<br>(Proton donor)', en:'Proton donor'},
-        kcABBLB:{zh:'質子接受者<br>(Proton acceptor)', en:'Proton acceptor'},
-        kcABLewis:{zh:'<strong>路易斯(Lewis)</strong>', en:'<strong>Lewis</strong>'},
-        kcABLewisA:{zh:'電子對接受者', en:'Electron pair acceptor'},
-        kcABLewisB:{zh:'電子對給予者', en:'Electron pair donor'},
-        kcABCommonAcid:{zh:'<strong>常見酸：</strong>HCl(鹽酸), H₂SO₄(硫酸), HNO₃(硝酸), CH₃COOH(醋酸,弱酸)', en:'<strong>Common acids:</strong> HCl, H₂SO₄, HNO₃, CH₃COOH(acetic, weak)'},
-        kcABCommonBase:{zh:'<strong>常見鹼：</strong>NaOH(氫氧化鈉), Ca(OH)₂(氫氧化鈣), NH₃·H₂O(氨水,弱鹼)', en:'<strong>Common bases:</strong> NaOH, Ca(OH)₂, NH₃·H₂O(ammonia, weak)'},
-
-        // pH 值與指示劑
- kcpHTitle:{zh:'📊 pH 值與指示劑（pH Scale & Indicators）', en:'📊 pH Scale & Indicators'},
-        kcPHFormula:{zh:'<strong>pH = -log[H⁺]</strong>，範圍 0 ~ 14', en:'<strong>pH = -log[H⁺]</strong>, range 0~14'},
-        kcPHRule1:{zh:'pH < 7 → 酸性（pH 越小越酸），pH > 7 → 鹼性（pH 越大越鹼）', en:'pH < 7 → Acidic (lower=more acidic), pH > 7 → Basic (higher=more basic)'},
-        kcPHRule2:{zh:'pH 每減少 1 → [H⁺] 增大 10 倍', en:'Each ↓1 in pH → [H⁺] increases 10×'},
-        kcPHIndicators:{zh:'<strong>常用指示劑：</strong>', en:'<strong>Common indicators:</strong>'},
-        kcPHLitmus:{zh:'<strong>石蕊試紙 (Litmus)</strong>：紅色→酸性 / 藍色→鹼性（只能判斷酸鹼）', en:'<strong>Litmus paper</strong>: Red→Acidic / Blue→Basic (acid-base only)'},
-        kcPHPhenol:{zh:'<strong>酚酞 (Phenolphthalein)</strong>：無色(酸/中性) → 粉紅色(鹼, pH>8.2)，常用於中和滴定終點', en:'<strong>Phenolphthalein</strong>: Colorless(acid/neutral) → Pink(base, pH>8.2), used for titration endpoint'},
-        kcPHUniversal:{zh:'<strong>通用指示劑 (Universal Indicator)</strong>：可顯示不同pH值的顏色變化（紅→橙→黃→綠→藍→紫）', en:'<strong>Universal Indicator</strong>: Shows different colors at different pH (red→orange→yellow→green→blue→purple)'},
-        kcPHMethyl:{zh:'<strong>甲基橙 (Methyl Orange)</strong>：紅色(pH<3.1) → 橙色(pH 3.1~4.4) → 黃色(pH>4.4)', en:'<strong>Methyl Orange</strong>: Red(pH<3.1) → Orange(pH 3.1-4.4) → Yellow(pH>4.4)'},
-
-        // 中和作用
-        kcNeutTitle:{zh:'⚖️ 中和作用（Neutralization）', en:'⚖️ Neutralization'},
-        kcNeutDef:{zh:'<strong>定義</strong>：酸 + 鹼 → 鹽 + 水 + 熱量（<strong style="color:#fbbf24;">放熱反應</strong>）', en:'<strong>Definition</strong>: Acid + Base → Salt + Water + Heat (<strong style="color:#fbbf24;">exothermic</strong>)'},
-        kcNeutGeneral:{zh:'<strong>通式</strong>：Acid + Base → Salt + H₂O + Energy', en:'<strong>General eq</strong>: Acid + Base → Salt + H₂O + Energy'},
-        kcNeutExampleTitle:{zh:'<strong>例子：</strong>', en:'<strong>Examples:</strong>'},
-        kcNeutEx1:{zh:'HCl + NaOH → NaCl + H₂O（氯化鈉 + 水）', en:'HCl + NaOH → NaCl + H₂O (sodium chloride + water)'},
-        kcNeutEx2:{zh:'H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O（硫酸鈉 + 水）', en:'H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O (sodium sulfate + water)'},
-        kcNeutEx3:{zh:'2HCl + Ca(OH)₂ → CaCl₂ + 2H₂O（氯化鈣 + 水）', en:'2HCl + Ca(OH)₂ → CaCl₂ + 2H₂O (calcium chloride + water)'},
-        kcNeutEx4:{zh:'CH₃COOH + NaOH → CH₃COONa + H₂O（醋酸鈉 + 水）', en:'CH₃COOH + NaOH → CH₃COONa + H₂O (sodium acetate + water)'},
-        kcNeutNote:{zh:'<strong>⚠️ 注意：</strong>強酸+強鹼完全中和時 pH=7；弱酸+強鹼 pH>7；強酸+弱鹼 pH<7', en:'<strong>⚠️ Note:</strong> Strong acid+strong base: pH=7; Weak acid+strong base: pH>7; Strong acid+weak base: pH<7'},
-
-        // ===== 知識卡片 - 氧化還原 (Redox) =====
-        kcRedoxTitle:{zh:'🔄 氧化還原反應（Redox Reactions）', en:'🔄 Oxidation-Reduction (Redox) Reactions'},
-        kcRedoxMnemonic:{zh:'<strong>口記：OIL RIG → Oxidation Is Loss（氧化是失去電子），Reduction Is Gain（還原是獲得電子）</strong>', en:'<strong>Mnemonic: OIL RIG → Oxation Is Loss, Reduction Is Gain</strong>'},
-        kcRedoxThProcess:{zh:'過程', en:'Process'},
-        kcRedoxThElec:{zh:'電子變化', en:'e⁻ Change'},
-        kcRedoxThOxNum:{zh:'氧化數', en:'Oxidation No.'},
-        kcRedoxThRole:{zh:'角色', en:'Role'},
-        kcRedoxOxidation:{zh:'<strong>氧化 (Oxidation)</strong>', en:'<strong>Oxidation</strong>'},
-        kcRedoxOxElec:{zh:'失去電子 e⁻', en:'Lose electrons e⁻'},
-        kcRedoxOxNum:{zh:'<strong>↑ 升高</strong>', en:'<strong>↑ Increases</strong>'},
-        kcRedoxOxRole:{zh:'還原劑(Reducing agent)', en:'Reducing agent'},
-        kcRedoxReduction:{zh:'<strong>還原 (Reduction)</strong>', en:'<strong>Reduction</strong>'},
-        kcRedoxReElec:{zh:'獲得電子 e⁻', en:'Gain electrons e⁻'},
-        kcRedoxReNum:{zh:'<strong>↓ 降低</strong>', en:'<strong>↓ Decreases</strong>'},
-        kcRedoxReRole:{zh:'氧化劑(Oxidizing agent)', en:'Oxidizing agent'},
-        kcRedoxExTitle:{zh:'<strong>常見例子：</strong>', en:'<strong>Common examples:</strong>'},
-        kcRedoxEx1:{zh:'🔥 燃烧：C + O₂ → CO₂（C被氧化，O被还原）', en:'🔥 Combustion: C + O₂ → CO₂ (C oxidized, O reduced)'},
-        kcRedoxEx2:{zh:'🔋 電池：Zn + CuSO₄ → ZnSO₄ + Cu（Zn被氧化，Cu²⁺被還原）', en:'🔋 Battery: Zn + CuSO₄ → ZnSO₄ + Cu (Zn oxidized, Cu²⁺ reduced)'},
-        kcRedoxEx3:{zh:'⚡ 銹蝕：4Fe + 3O₂ → 2Fe₂O₃（Fe 被氧化，Fe²⁺/Fe³⁺ 是氧化產物）', en:'⚡ Rusting: 4Fe + 3O₂ → 2Fe₂O₃ (Fe oxidized, Fe²⁺/Fe³⁺ products)'},
-
-        // 電化學系列與電解
-        kcElecTitle:{zh:'⚡ 電化學系列與電解（Electrochemistry & Electrolysis）', en:'⚡ Electrochemistry & Electrolysis'},
-        kcElecSeries:{zh:'<strong>電化學系列 (Electrochemical Series) — 活潑性由高至低：</strong>', en:'<strong>Electrochemical Series — Reactivity (high to low):</strong>'},
-        kcElecOrder:{zh:'K > Na > Ca > Mg > Al > Zn > Fe > Ni > Sn > Pb > H > Cu > Ag > Au > Pt', en:'K > Na > Ca > Mg > Al > Zn > Fe > Ni > Sn > Pb > H > Cu > Ag > Au > Pt'},
-        kcElecR1:{zh:'排在 H 前面的金屬能<strong style="color:#34d399;">與酸反應產生氫氣</strong>', en:'Metals above H <strong style="color:#34d399;">react with acids to produce H₂</strong>'},
-        kcElecR2:{zh:'排在前面的金屬能把排在後面的金屬從其鹽溶液中<strong style="color:#fbbf24;">置換出來</strong>', en:'More reactive metals <strong style="color:#fbbf24;">displace</strong> less reactive ones from salt solutions'},
-        kcElecR3:{zh:'越活潑的金屬越容易<strong style="color:#f87171;">失去電子（被氧化）</strong>', en:'More reactive metals more easily <strong style="color:#f87171;">lose e⁻ (oxidized)</strong>'},
-        kcElecPrinciple:{zh:'<strong>電解原理：</strong>', en:'<strong>Electrolysis principles:</strong>'},
-        kcElecAnode:{zh:'<strong>陽極 (Anode, +)</strong>：發生<strong style="color:#f87171;">氧化反應</strong>，陰離子或活性電極失電子', en:'<strong>Anode (+)</strong>: <strong style="color:#f87171;">Oxidation</strong>, anions or active electrode lose e⁻'},
-        kcElecCathode:{zh:'<strong>陰極 (Cathode, -)</strong>：發生<strong style="color:#34d399;">還原反應</strong>，陽離子得電子', en:'<strong>Cathode (-)</strong>: <strong style="color:#34d399;">Reduction</strong>, cations gain e⁻'},
-        kcElecNacl:{zh:'電解濃 NaCl 溶液：<br>陽極(+)：2Cl⁻ → Cl₂↑ + 2e⁻ | 陰極(-)：2H₂O + 2e⁻ → H₂↑ + 2OH⁻<br>總反應：2NaCl + 2H₂O → 2NaOH + H₂↑ + Cl₂↑', en:'Electrolysis of conc. NaCl(aq):<br>Anode(+): 2Cl⁻ → Cl₂↑ + 2e⁻ | Cathode(-): 2H₂O + 2e⁻ → H₂↑ + 2OH⁻<br>Total: 2NaCl + 2H₂O → 2NaOH + H₂↑ + Cl₂↑'},
-
-        // ===== 知識卡片 - 氣體 (Gas) =====
-        kcGasLawTitle:{zh:'💨 氣體定律（Gas Laws）', en:'💨 Gas Laws'},
-        kcGasLawThLaw:{zh:'定律', en:'Law'},
-        kcGasLawThForm:{zh:'公式', en:'Formula'},
-        kcGasLawThCond:{zh:'條件', en:'Condition'},
-        kcGasLawThDesc:{zh:'說明', en:'Description'},
-        kcGasBoyle:{zh:'波義耳 (Boyle\'s)', 'Boyle\'s'},
-        kcGasBoyleForm:{zh:'P₁V₁ = P₂V₂', 'P₁V₁ = P₂V₂'},
-        kcGasBoyleCond:{zh:'恆溫(T)', 'Constant T'},
-        kcGasBoyleDesc:{zh:'壓強與體積成反比', 'P inversely ∝ V'},
-        kcGasCharles:{zh:'查理 (Charles\')', 'Charles\''},
-        kcGasCharlesForm:{zh:'V₁/T₁ = V₂/T₂', 'V₁/T₁ = V₂/T₂'},
-        kcGasCharlesCond:{zh:'恆壓(P)', 'Constant P'},
-        kcGasCharlesDesc:{zh:'體積與溫度(K)成正比', en:'V directly ∝ T (K)'},
-        kcGasIdeal:{zh:'理想氣體', en:'Ideal Gas'},
-        kcGasIdealForm:{zh:'<strong>PV = nRT</strong>', '<strong>PV = nRT</strong>'},
-        kcGasIdealCond:{zh:'一般情況', en:'General'},
-        kcGasIdealDesc:{zh:'R = 8.314 J/(mol·K)', 'R = 8.314 J/(mol·K)'},
-        kcGasConstTitle:{zh:'<strong>重要常數：</strong>', en:'<strong>Important constants:</strong>'},
-        kcGasConstR:{zh:'<strong>R = 8.314 J/(mol·K) = 0.0821 L·atm/(mol·K)</strong>', en:'<strong>R = 8.314 J/(mol·K) = 0.0821 L·atm/(mol·K)</strong>'},
-        kcGasSTP:{zh:'<strong>標準狀況 STP</strong>：0°C (273 K), 1 atm → 1 mol 氣體 = <strong style="color:#fbbf24;">22.4 L</strong>', en:'<strong>STP</strong>: 0°C (273 K), 1 atm → 1 mol gas = <strong style="color:#fbbf24;">22.4 L</strong>'},
-        kcGasRTP:{zh:'<strong>室溫 RTP</strong>：25°C (298 K), 1 atm → 1 mol 氣體 = <strong style="color:#22d3ee;">24.0 L</strong>', en:'<strong>RTP</strong>: 25°C (298 K), 1 atm → 1 mol gas = <strong style="color:#22d3ee;">24.0 L</strong>'},
-
-        // 氣體製備方法
-        kcGasPrepTitle:{zh:'🧪 常見氣體製備方法（Gas Preparation Methods）', en:'🧪 Common Gas Preparation Methods'},
-        kcGasPrepThGas:{zh:'氣體', en:'Gas'},
-        kcGasPrepThRxtn:{zh:'製備反應', en:'Preparation Reaction'},
-        kcGasPrepThMethod:{zh:'收集方法', en:'Collection Method'},
-        kcGasPrepThProp:{zh:'性質', en:'Properties'},
-        kcGasPrepH2:{zh:'<strong>H₂ 氫氣</strong>', en:'<strong>H₂ Hydrogen</strong>'},
-        kcGasPrepH2Rxtn:{zh:'Zn + H₂SO₄<br>→ ZnSO₄ + H₂↑', 'Zn + H₂SO₄ → ZnSO₄ + H₂↑'},
-        kcGasPrepH2Method:{zh:'<strong>排水法</strong><br>(最輕的氣體)', '<strong>Water displacement</strong><br>(Lightest gas)'},
-        kcGasPrepH2Prop:{zh:'無色無味、可燃', 'Colorless, odorless, flammable'},
-        kcGasPrepO2:{zh:'<strong>O₂ 氧氣</strong>', en:'<strong>O₂ Oxygen</strong>'},
-        kcGasPrepO2Rxtn:{zh:'2H₂O₂ --MnO₂→<br>2H₂O + O₂↑', '2H₂O₂ --MnO₂→ 2H₂O + O₂↑'},
-        kcGasPrepO2Method:{zh:'<strong>排水法</strong>', en:'<strong>Water displacement</strong>'},
-        kcGasPrepO2Prop:{zh:'支持燃燒', 'Supports combustion'},
-        kcGasPrepCO2:{zh:'<strong>CO₂ 二氧化碳</strong>', en:'<strong>CO₂ Carbon Dioxide</strong>'},
-        kcGasPrepCO2Rxtn:{zh:'CaCO₃ + 2HCl<br>→ CaCl₂+H₂O+CO₂↑', 'CaCO₃ + 2HCl → CaCl₂+H₂O+CO₂↑'},
-        kcGasPrepCO2Method:{zh:'<strong>向上排空氣法</strong><br>(密度 > 空氣)', '<strong>Upward air displacement</strong><br>(Denser than air)'},
-        kcGasPrepCO2Prop:{zh:'滅火用、使石灰水變濁', en:'Fire extinguishing, turns lime water cloudy'},
-        kcGasPrepCl2:{zh:'<strong>Cl₂ 氯氣</strong>', en:'<strong>Cl₂ Chlorine</strong>'},
-        kcGasPrepCl2Rxtn:{zh:'MnO₂ + 4HCl(濃)<br>→ MnCl₂+2H₂O+Cl₂↑', 'MnO₂ + 4HCl(conc) → MnCl₂+2H₂O+Cl₂↑'},
-        kcGasPrepCl2Method:{zh:'<strong>向上排空氣法</strong>', en:'<strong>Upward air displacement</strong>'},
-        kcGasPrepCl2Prop:{zh:'黃綠色有毒氣體', 'Yellow-green toxic gas'},
-        kcGasPrepNH3:{zh:'<strong>NH₃ 氨氣</strong>', en:'<strong>NH₃ Ammonia</strong>'},
-        kcGasPrepNH3Rxtn:{zh:'2NH₄Cl + Ca(OH)₂<br>--Δ→ CaCl₂+2H₂O+2NH₃↑', '2NH₄Cl + Ca(OH)₂ --Δ→ CaCl₂+2H₂O+2NH₃↑'},
-        kcGasPrepNH3Method:{zh:'<strong>向下排空氣法</strong><br>(密度 < 空氣)', '<strong>Downward air displacement</strong><br>(Lighter than air)'},
-        kcGasPrepNH3Prop:{zh:'刺激性氣味，鹼性', 'Pungent smell, basic'},
-
-        // 摩爾概念
-        kcMoleTitle:{zh:'📏 摩爾概念與摩爾體積（Mole & Molar Volume）', en:'📏 Mole & Molar Volume'},
-        kcMoleDef:{zh:'<strong>摩爾 (mole, mol)</strong>：物質的量的單位。1 mol 含有 <strong style="color:#fbbf24;">阿伏伽德羅常數 (Nₐ = 6.02 × 10²³)</strong> 個粒子', en:'<strong>Mole (mol)</strong>: Unit of amount of substance. 1 mol contains <strong style="color:#fbbf24;">Avogadro\'s number (Nₐ = 6.02×10²³)</strong> particles'},
-        kcMoleMass:{zh:'<strong>摩爾質量 (Molar Mass, M)</strong>：以 g/mol 為單位時，數值等於相對原子/分子質量', en:'<strong>Molar Mass (M)</strong>: In g/mol, numerically equal to relative atomic/molecular mass'},
-        kcMoleVolTitle:{zh:'<strong>摩爾體積 (Molar Volume, Vₘ)</strong>：', en:'<strong>Molar Volume (Vₘ)</strong>:'},
-        kcMoleVolSTP:{zh:'STP 下：Vₘ = <strong>22.4 L/mol</strong>', 'At STP: Vₘ = <strong>22.4 L/mol</strong>'},
-        kcMoleVolRTP:{zh:'RTP 下：Vₘ = <strong>24.0 L/mol</strong>', 'At RTP: Vₘ = <strong>24.0 L/mol</strong>'},
-        kcMoleFormulaTitle:{zh:'<strong>重要公式</strong>：', en:'<strong>Important formulas:</strong>'},
-        kcMoleF1:{zh:'n = m / M （摩爾數 = 質量 ÷ 摩爾質量）', 'n = m / M (moles = mass ÷ molar mass)'},
-        kcMoleF2:{zh:'n = V / Vₘ （摩爾數 = 體積 ÷ 摩爾體積）', 'n = V / Vₘ (moles = volume ÷ molar volume)'},
-        kcMoleF3:{zh:'C = n / V （濃度 = 摩爾數 ÷ 體积(L)），單位 mol/L 或 M', 'C = n / V (conc = moles ÷ vol(L)), unit mol/L or M'},
-
-        // 實驗步驟描述文字（完整覆蓋）
-        expStep1DescFull:{zh:'準備錐形瓶、滴定管、酚酞指示劑、0.1M NaOH 和 0.1M HCl 溶液。', en:'Prepare Erlenmeyer flask, burette, phenolphthalein indicator, 0.1M NaOH & 0.1M HCl solutions.'},
-        expStep1Note:{zh:'📋 檢查滴定管是否漏水，並用蒸餾水清洗。', en:'📋 Check burette for leaks, rinse with distilled water.'},
-        expStep2DescFull:{zh:'在錐形瓶中加入 20mL HCl 和 2-3 滴酚酞指示劑，溶液應為無色。', en:'Add 20mL HCl and 2-3 drops phenolphthalein to flask. Solution should be colorless.'},
-        expStep2Note:{zh:'🧪 此時溶液呈酸性 (pH < 7)', en:'🧪 Solution is acidic (pH < 7)'},
-        expStep3DescFull:{zh:'用滴定管緩慢加入 NaOH，邊加邊搖晃。接近終點時逐滴加入。', en:'Slowly add NaOH via burette while swirling. Add dropwise near endpoint.'},
-        expStep3Note:{zh:'💧 觀察顏色變化的過程（點擊搖晃）', en:'💧 Observe color change process (click to shake)'},
-        expStep4DescFull:{zh:'當溶液出現淺粉紅色且半分鐘不褪色，即達到終點。記錄 NaOH 用量。', en:'When pale pink appears and persists for 30s, endpoint reached. Record NaOH volume.'},
-        expStep4Note:{zh:'🎯 終點時 pH ≈ 8.2（酚酞變色範圍）', en:'🎯 Endpoint pH ≈ 8.2 (phenolphthalein range)'},
-
-        // 氣體製備描述
-        expGasH2DescFull:{zh:'🔬 使用<strong>排水集氣法</strong>收集（氫氣密度小於空氣）<br>⚠️ 氫氣易燃！遠離火源', en:'🔬 Use <strong>Water Displacement</strong> collection (H₂ lighter than air)<br>⚠️ H₂ is flammable! Keep away from fire'},
-        expGasCO2DescFull:{zh:'🔬 使用<strong>向上排空氣法</strong>收集（CO₂ 密度大於空氣）<br>💡 可使澄清石灰水變濁', en:'🔬 Use <strong>Upward Air Displacement</strong> (CO₂ denser than air)<br>💡 Turns lime water cloudy'},
-        expGasO2DescFull:{zh:'🔬 使用<strong>排水集氣法</strong>收集<br>🔥 O₂ 支持燃燒，可用帶火星的木條檢驗', en:'🔬 Use <strong>Water Displacement</strong><br>🔥 O₂ supports combustion, test with glowing splint'},
-
-        // 電解描述
-        expElecWaterDescFull:{zh:'📊 氫氣 : 氧氣 體積比 = <strong style="color:#fbbf24;">2 : 1</strong><br>🎯 陰極產生 H₂（還原），陽極產生 O₂（氧化）', en:'📊 H₂ : O₂ Vol ratio = <strong style="color:#fbbf24;">2 : 1</strong><br>🎯 Cathode: H₂ (Reduction), Anode: O₂ (Oxidation)'},
-        expElecBrineDescFull:{zh:'⚙️ 工業上稱為「<strong style="color:#fbbf24;">氯鹼工業</strong>」<br>📝 陽極：2Cl⁻ → Cl₂↑ + 2e⁻ | 陰極：2H₂O + 2e⁻ → H₂↑ + 2OH⁻', en:'⚙️ Industrially called "<strong style="color:#fbbf24;">Chlor-Alkali Process</strong>"<br>📝 Anode: 2Cl⁻ → Cl₂↑ + 2e⁻ | Cathode: 2H₂O + 2e⁻ → H₂↑ + 2OH⁻'},
-
-        // SVG內嵌中文標籤
-        svgLabelEquipReady:{zh:'器材就位', en:'Equipment Ready'},
-        svgLabelDropPhenol:{zh:'滴入酚酞指示劑', en:'Adding Phenolphthalein'},
-        svgLabelTitrating:{zh:'滴定中...', en:'Titrating...'},
-        svgLabelEndpoint:{zh:'終點 - 粉紅色', en:'Endpoint - Pink'},
-        svgLabelHeat:{zh:'中和放熱', en:'Neutralization Heat'},
-        svgLabelDrainage:{zh:'排水集氣', en:'Water Displacement'},
-        svgLabelZnReact:{zh:'Zn + H₂SO₄ 反應', en:'Zn + H₂SO₄ Reaction'},
-        svgLabelCaCO3React:{zh:'CaCO₃ + HCl 反應', en:'CaCO₃ + HCl Reaction'},
-        svgLabelLimeWater:{zh:'石灰水', en:'Lime Water'},
-        svgLabelMnO2Decomp:{zh:'MnO₂ 催化分解', en:'MnO₂ Catalytic Decomp.'},
-        svgLabelMatchRelight:{zh:'帶火星木條復燃', en:'Glowing Splint Relights'},
-        svgLabelHoffman:{zh:'霍夫曼電解装置', en:"Hoffmann Apparatus"},
-        svgLabelMembrane:{zh:'隔膜式電解槽', en:'Membrane Cell'},
-        svgLabelDCPower:{zh:'直流電源 DC', en:'DC Power Supply'},
-        svgLabelCathode:{zh:'陰極', en:'Cathode'},
-        svgLabelAnode:{zh:'陽極', en:'Anode'},
     };
 
     let currentLang = localStorage.getItem('chemAppLang') || 'zh';
@@ -3114,259 +2894,25 @@
 
     // --- 知識卡片 i18n ---
     function updateKnowledgeCards() {
-        const L = currentLang; // shorthand
-        const cards = document.querySelectorAll('#knowledge .knowledge-card');
-        
-        // ===== Atomic Tab (cards 0-2) =====
-        if (cards[0]) {
-            let h3=cards[0].querySelector('h3'); if(h3&&i18nDict.kcAtomBasic) h3.innerHTML=i18nDict.kcAtomBasic[L];
-            let ps=cards[0].querySelectorAll('p');
-            if(ps[0]&&i18nDict.kcAtomDef) ps[0].innerHTML=i18nDict.kcAtomDef[L];
-            let lis=cards[0].querySelectorAll('li');
-            if(lis[0]&&i18nDict.kcProton) lis[0].innerHTML=i18nDict.kcProton[L];
-            if(lis[1]&&i18nDict.kcNeutron) lis[1].innerHTML=i18nDict.kcNeutron[L];
-            if(lis[2]&&i18nDict.kcElectron) lis[2].innerHTML=i18nDict.kcElectron[L];
-        }
-        if (cards[1]) {
-            let h3=cards[1].querySelector('h3'); if(h3&&i18nDict.kcEATitle) h3.innerHTML=i18nDict.kcEATitle[L];
-            let ps=cards[1].querySelectorAll('p');
-            if(ps[0]&&i18nDict.kcEShell) ps[0].innerHTML='<strong>'+i18nDict.kcEShell[L]+'</strong>';
-            let lis=cards[1].querySelectorAll('li');
-            if(lis[0]&&i18nDict.kcKShell) lis[0].innerHTML=i18nDict.kcKShell[L];
-            if(lis[1]&&i18nDict.kcLShell) lis[1].innerHTML=i18nDict.kcLShell[L];
-            if(lis[2]&&i18nDict.kcMShell) lis[2].innerHTML=i18nDict.kcMShell[L];
-            if(lis[3]&&i18nDict.kcNShell) lis[3].innerHTML=i18nDict.kcNShell[L];
-            if(lis[4]&&i18nDict.kcRule) lis[4].innerHTML=i18nDict.kcRule[L];
-            if(ps[1]&&i18nDict.kcECNotation) ps[1].innerHTML=i18nDict.kcECNotation[L];
-        }
-        if (cards[2]) {
-            let h3=cards[2].querySelector('h3'); if(h3&&i18nDict.kcIsotopeTitle) h3.innerHTML=i18nDict.kcIsotopeTitle[L];
-            let ps=cards[2].querySelectorAll('p');
-            if(ps[0]&&i18nDict.kcIsotopeDef) ps[0].innerHTML='<strong>'+i18nDict.kcIsotopeDef[L].replace('<strong>','').replace('</strong>','')+'</strong>：'+i18nDict.kcIsotopeDef[L].match(/：(.+)/)?.[1]||'';
-            // 簡化處理 - 直接設置完整HTML
-            if(i18nDict.kcIsotopeDef) ps[0].innerHTML=i18nDict.kcIsotopeDef[L];
-            let lis=cards[2].querySelectorAll('li');
-            if(lis[0]&&i18nDict.kcISProton) lis[0].innerHTML=i18nDict.kcISProton[L];
-            if(lis[1]&&i18nDict.kcISNeutron) lis[1].innerHTML=i18nDict.kcISNeutron[L];
-            if(lis[2]&&i18nDict.kcISChem) lis[2].innerHTML=i18nDict.kcISChem[L];
-            if(lis[3]&&i18nDict.kcISPhys) lis[3].innerHTML=i18nDict.kcISPhys[L];
-            if(ps[1]&&i18nDict.kcISExamples) ps[1].innerHTML=i18nDict.kcISExamples[L];
-        }
-
-        // ===== Bonding Tab (cards in #bonding) =====
-        const bondingCards = document.querySelectorAll('#bonding .knowledge-card');
-        // Bonding card 1: 化學鍵類型
-        if (bondingCards[0]) {
-            let h3=bondingCards[0].querySelector('h3'); if(h3&&i18nDict.kcBondingTitle) h3.innerHTML=i18nDict.kcBondingTitle[L];
-            let table=bondingCards[0].querySelector('table');
-            if(table){
-                let ths=table.querySelectorAll('th');
-                if(ths[0]) ths[0].textContent=i18nDict.kcBondThType[L];
-                if(ths[1]) ths[1].textContent=i18nDict.kcBondThCond[L];
-                if(ths[2]) ths[2].textContent=i18nDict.kcBondThFeat[L];
-                if(ths[3]) ths[3].textContent=i18nDict.kcBondThExam[L];
-                let trs=table.querySelectorAll('tbody tr, tr');
-                if(trs[0]){let tds=trs[0].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcBondIonic[L]; if(tds[1]) tds[1].textContent=i18nDict.kcBondIonicCond[L]; if(tds[2]) tds[2].textContent=i18nDict.kcBondIonicFeat[L]; if(tds[3]) tds[3].textContent=i18nDict.kcBondIonicExam[L];}
-                if(trs[1]){let tds=trs[1].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcBondCovalent[L]; if(tds[1]) tds[1].textContent=i18nDict.kcBondCovalentCond[L]; if(tds[2]) tds[2].textContent=i18nDict.kcBondCovalentFeat[L]; if(tds[3]) tds[3].textContent=i18nDict.kcBondCovalentExam[L];}
-                if(trs[2]){let tds=trs[2].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcBondMetallic[L]; if(tds[1]) tds[1].textContent=i18nDict.kcBondMetallicCond[L]; if(tds[2]) tds[2].textContent=i18nDict.kcBondMetallicFeat[L]; if(tds[3]) tds[3].textContent=i18nDict.kcBondMetallicExam[L];}
-            }
-            let p=bondingCards[0].querySelector('p'); if(p&&i18nDict.kcBondENDiff) p.innerHTML=i18nDict.kcBondENDiff[L];
-            let lis=bondingCards[0].querySelectorAll('li');
-            if(lis[0]&&i18nDict.kcBondRule1) lis[0].innerHTML=i18nDict.kcBondRule1[L];
-            if(lis[1]&&i18nDict.kcBondRule2) lis[1].innerHTML=i18nDict.kcBondRule2[L];
-            if(lis[2]&&i18nDict.kcBondRule3) lis[2].innerHTML=i18nDict.kcBondRule3[L];
-            if(lis[3]&&i18nDict.kcBondRule4) lis[3].innerHTML=i18nDict.kcBondRule4[L];
-        }
-        // Bonding card 2: σ鍵 vs π鍵
-        if(bondingCards[1]){
-            let h3=bondingCards[1].querySelector('h3'); if(h3&&i18nDict.kcSigmaPiTitle) h3.innerHTML=i18nDict.kcSigmaPiTitle[L];
-            let ps=bondingCards[1].querySelectorAll('p');
-            if(ps[0]&&i18nDict.kcSigmaPiIntro) ps[0].innerHTML=i18nDict.kcSigmaPiIntro[L];
-            let lis=bondingCards[1].querySelectorAll('>ul>li');
-            if(lis[0]){
-                lis[0].innerHTML=i18nDict.kcSigmaName[L];
-                let sublis=lis[0].querySelectorAll('li');
-                if(sublis[0]&&i18nDict.kcSigmaF1) sublis[0].innerHTML=i18nDict.kcSigmaF1[L];
-                if(sublis[1]&&i18nDict.kcSigmaF2) sublis[1].innerHTML=i18nDict.kcSigmaF2[L];
-                if(sublis[2]&&i18nDict.kcSigmaF3) sublis[2].innerHTML=i18nDict.kcSigmaF3[L];
-            }
-            if(lis[1]){
-                lis[1].innerHTML=i18nDict.kcPiName[L];
-                let sublis=lis[1].querySelectorAll('li');
-                if(sublis[0]&&i18nDict.kcPiF1) sublis[0].innerHTML=i18nDict.kcPiF1[L];
-                if(sublis[1]&&i18nDict.kcPiF2) sublis[1].innerHTML=i18nDict.kcPiF2[L];
-                if(sublis[2]&&i18nDict.kcPiF3) sublis[2].innerHTML=i18nDict.kcPiF3[L];
-                if(sublis[3]&&i18nDict.kcPiF4) sublis[3].innerHTML=i18nDict.kcPiF4[L];
-            }
-            if(ps[1]&&i18nDict.kcSigmaPiExample) ps[1].innerHTML=i18nDict.kcSigmaPiExample[L];
-        }
-        // Bonding card 3: 化合價
-        if(bondingCards[2]){
-            let h3=bondingCards[2].querySelector('h3'); if(h3&&i18nDict.kcValencyTitle) h3.innerHTML=i18nDict.kcValencyTitle[L];
-            let lis=bondingCards[2].querySelectorAll('>ul>li');
-            if(lis[0]&&i18nDict.kcValencyDef) lis[0].innerHTML=i18nDict.kcValencyDef[L];
-            if(lis[1]&&i18nDict.kcValencyCommon) lis[1].innerHTML=i18nDict.kcValencyCommon[L];
-            if(lis[2]&&i18nDict.kcValencyRule) lis[2].innerHTML=i18nDict.kcValencyRule[L];
-            if(lis[3]&&i18nDict.kcValencyExample) lis[3].innerHTML=i18nDict.kcValencyExample[L];
-            if(lis[4]){
-                lis[4].innerHTML=i18nDict.kcValencyOxRule[L];
-                let sublis=lis[4].querySelectorAll('li');
-                if(sublis[0]&&i18nDict.kcValencyOx1) sublis[0].innerHTML=i18nDict.kcValencyOx1[L];
-                if(sublis[1]&&i18nDict.kcValencyOx2) sublis[1].innerHTML=i18nDict.kcValencyOx2[L];
-                if(sublis[2]&&i18nDict.kcValencyOx3) sublis[2].innerHTML=i18nDict.kcValencyOx3[L];
-                if(sublis[3]&&i18nDict.kcValencyOx4) sublis[3].innerHTML=i18nDict.kcValencyOx4[L];
-            }
-        }
-
-        // ===== Acid-Base Tab (#acidbase) =====
-        const abCards = document.querySelectorAll('#acidbase .knowledge-card');
-        if(abCards[0]){
-            let h3=abCards[0].querySelector('h3'); if(h3&&i18nDict.kcABTitle) h3.innerHTML=i18nDict.kcABTitle[L];
-            let table=abCards[0].querySelector('table');
-            if(table){
-                let ths=table.querySelectorAll('th');
-                if(ths[0]) ths[0].textContent=i18nDict.kcABThTheory[L];
-                if(ths[1]) ths[1].textContent=i18nDict.kcABThAcid[L];
-                if(ths[2]) ths[2].textContent=i18nDict.kcABThBase[L];
-                let trs=table.querySelectorAll('tr');
-                if(trs[1]){let tds=trs[1].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcABArrhenius[L]; if(tds[1]) tds[1].textContent=i18nDict.kcABArrA[L]; if(tds[2]) tds[2].textContent=i18nDict.kcABArrB[L];}
-                if(trs[2]){let tds=trs[2].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcABBL[L]; if(tds[1]) tds[1].textContent=i18nDict.kcABBLA[L]; if(tds[2]) tds[2].textContent=i18nDict.kcABBLB[L];}
-                if(trs[3]){let tds=trs[3].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcABLewis[L]; if(tds[1]) tds[1].textContent=i18nDict.kcABLewisA[L]; if(tds[2]) tds[2].textContent=i18nDict.kcABLewisB[L];}
-            }
-            let ps=abCards[0].querySelectorAll('p');
-            if(ps[0]&&i18nDict.kcABCommonAcid) ps[0].innerHTML=i18nDict.kcABCommonAcid[L];
-            if(ps[1]&&i18nDict.kcABCommonBase) ps[1].innerHTML=i18nDict.kcABCommonBase[L];
-        }
-        // pH值與指示劑
-        if(abCards[1]){
-            let h3=abCards[1].querySelector('h3'); if(h3&&i18nDict.kcpHTitle) h3.innerHTML=i18nDict.kcpHTitle[L];
-            let lis=abCards[1].querySelectorAll('>ul>li');
-            if(lis[0]&&i18nDict.kcPHFormula) lis[0].innerHTML=i18nDict.kcPHFormula[L];
-            if(lis[1]&&i18nDict.kcPHRule1) lis[1].innerHTML=i18nDict.kcPHRule1[L];
-            if(lis[2]&&i18nDict.kcPHRule2) lis[2].innerHTML=i18nDict.kcPHRule2[L];
-            let ps=abCards[1].querySelectorAll('p');
-            if(ps[0]&&i18nDict.kcPHIndicators) ps[0].innerHTML=i18nDict.kcPHIndicators[L];
-            let indLis=abCards[1].querySelectorAll('ul:last-of-type>li');
-            if(indLis[0]&&i18nDict.kcPHLitmus) indLis[0].innerHTML=i18nDict.kcPHLitmus[L];
-            if(indLis[1]&&i18nDict.kcPHPhenol) indLis[1].innerHTML=i18nDict.kcPHPhenol[L];
-            if(indLis[2]&&i18nDict.kcPHUniversal) indLis[2].innerHTML=i18nDict.kcPHUniversal[L];
-            if(indLis[3]&&i18nDict.kcPHMethyl) indLis[3].innerHTML=i18nDict.kcPHMethyl[L];
-        }
-        // 中和作用
-        if(abCards[2]){
-            let h3=abCards[2].querySelector('h3'); if(h3&&i18nDict.kcNeutTitle) h3.innerHTML=i18nDict.kcNeutTitle[L];
-            let ps=abCards[2].querySelectorAll('p');
-            if(ps[0]&&i18nDict.kcNeutDef) ps[0].innerHTML=i18nDict.kcNeutDef[L];
-            if(ps[1]&&i18nDict.kcNeutGeneral) ps[1].innerHTML=i18nDict.kcNeutGeneral[L];
-            if(ps[2]&&i18nDict.kcNeutExampleTitle) ps[2].innerHTML=i18nDict.kcNeutExampleTitle[L];
-            let lis=abCards[2].querySelectorAll('li');
-            if(lis[0]&&i18nDict.kcNeutEx1) lis[0].innerHTML=i18nDict.kcNeutEx1[L];
-            if(lis[1]&&i18nDict.kcNeutEx2) lis[1].innerHTML=i18nDict.kcNeutEx2[L];
-            if(lis[2]&&i18nDict.kcNeutEx3) lis[2].innerHTML=i18nDict.kcNeutEx3[L];
-            if(lis[3]&&i18nDict.kcNeutEx4) lis[3].innerHTML=i18nDict.kcNeutEx4[L];
-            if(ps[3]&&i18nDict.kcNeutNote) ps[3].innerHTML=i18nDict.kcNeutNote[L];
-        }
-
-        // ===== Redox Tab (#redox) =====
-        const redoxCards = document.querySelectorAll('#redox .knowledge-card');
-        if(redoxCards[0]){
-            let h3=redoxCards[0].querySelector('h3'); if(h3&&i18nDict.kcRedoxTitle) h3.innerHTML=i18nDict.kcRedoxTitle[L];
-            let p=redoxCards[0].querySelector('p'); if(p&&i18nDict.kcRedoxMnemonic) p.innerHTML=i18nDict.kcRedoxMnemonic[L];
-            let table=redoxCards[0].querySelector('table');
-            if(table){
-                let ths=table.querySelectorAll('th');
-                if(ths[0]) ths[0].textContent=i18nDict.kcRedoxThProcess[L];
-                if(ths[1]) ths[1].textContent=i18nDict.kcRedoxThElec[L];
-                if(ths[2]) ths[2].textContent=i18nDict.kcRedoxThOxNum[L];
-                if(ths[3]) ths[3].textContent=i18nDict.kcRedoxThRole[L];
-                let trs=table.querySelectorAll('tr');
-                if(trs[1]){let tds=trs[1].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcRedoxOxidation[L]; if(tds[1]) tds[1].textContent=i18nDict.kcRedoxOxElec[L]; if(tds[2]) tds[2].innerHTML=i18nDict.kcRedoxOxNum[L]; if(tds[3]) tds[3].textContent=i18nDict.kcRedoxOxRole[L];}
-                if(trs[2]){let tds=trs[2].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcRedoxReduction[L]; if(tds[1]) tds[1].textContent=i18nDict.kcRedoxReElec[L]; if(tds[2]) tds[2].innerHTML=i18nDict.kcRedoxReNum[L]; if(tds[3]) tds[3].textContent=i18nDict.kcRedoxReRole[L];}
-            }
-            let pt=redoxCards[0].querySelector('p:last-of-type'); if(pt&&i18nDict.kcRedoxExTitle) pt.innerHTML=i18nDict.kcRedoxExTitle[L];
-            let exLis=redoxCards[0].querySelectorAll('ul:last-of-type>li');
-            if(exLis[0]&&i18nDict.kcRedoxEx1) exLis[0].innerHTML=i18nDict.kcRedoxEx1[L];
-            if(exLis[1]&&i18nDict.kcRedoxEx2) exLis[1].innerHTML=i18nDict.kcRedoxEx2[L];
-            if(exLis[2]&&i18nDict.kcRedoxEx3) exLis[2].innerHTML=i18nDict.kcRedoxEx3[L];
-        }
-        // 電化學系列與電解
-        if(redoxCards[1]){
-            let h3=redoxCards[1].querySelector('h3'); if(h3&&i18nDict.kcElecTitle) h3.innerHTML=i18nDict.kcElecTitle[L];
-            let ps=redoxCards[1].querySelectorAll('p');
-            if(ps[0]&&i18nDict.kcElecSeries) ps[0].innerHTML=i18nDict.kcElecSeries[L];
-            if(ps[1]&&i18nDict.kcElecOrder) ps[1].innerHTML=i18nDict.kcElecOrder[L];
-            let lis=redoxCards[1].querySelectorAll('li');
-            if(lis[0]&&i18nDict.kcElecR1) lis[0].innerHTML=i18nDict.kcElecR1[L];
-            if(lis[1]&&i18nDict.kcElecR2) lis[1].innerHTML=i18nDict.kcElecR2[L];
-            if(lis[2]&&i18nDict.kcElecR3) lis[2].innerHTML=i18nDict.kcElecR3[L];
-            if(ps[2]&&i18nDict.kcElecPrinciple) ps[2].innerHTML=i18nDict.kcElecPrinciple[L];
-            let elecLis=redoxCards[1].querySelectorAll('ul:nth-of-type(2)>li');
-            if(elecLis[0]&&i18nDict.kcElecAnode) elecLis[0].innerHTML=i18nDict.kcElecAnode[L];
-            if(elecLis[1]&&i18nDict.kcElecCathode) elecLis[1].innerHTML=i18nDict.kcElecCathode[L];
-            if(elecLis[2]&&i18nDict.kcElecNacl) elecLis[2].innerHTML=i18nDict.kcElecNacl[L];
-        }
-
-        // ===== Gas Tab (#gas) =====
-        const gasCards = document.querySelectorAll('#gas .knowledge-card');
-        // 氣體定律
-        if(gasCards[0]){
-            let h3=gasCards[0].querySelector('h3'); if(h3&&i18nDict.kcGasLawTitle) h3.innerHTML=i18nDict.kcGasLawTitle[L];
-            let table=gasCards[0].querySelector('table');
-            if(table){
-                let ths=table.querySelectorAll('th');
-                if(ths[0]) ths[0].textContent=i18nDict.kcGasLawThLaw[L];
-                if(ths[1]) ths[1].textContent=i18nDict.kcGasLawThForm[L];
-                if(ths[2]) ths[2].textContent=i18nDict.kcGasLawThCond[L];
-                if(ths[3]) ths[3].textContent=i18nDict.kcGasLawThDesc[L];
-                let trs=table.querySelectorAll('tbody tr, tr');
-                if(trs[1]){let tds=trs[1].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcGasBoyle[L]; if(tds[1]) tds[1].textContent=i18nDict.kcGasBoyleForm[L]; if(tds[2]) tds[2].textContent=i18nDict.kcGasBoyleCond[L]; if(tds[3]) tds[3].textContent=i18nDict.kcGasBoyleDesc[L];}
-                if(trs[2]){let tds=trs[2].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcGasCharles[L]; if(tds[1]) tds[1].textContent=i18nDict.kcGasCharlesForm[L]; if(tds[2]) tds[2].textContent=i18nDict.kcGasCharlesCond[L]; if(tds[3]) tds[3].textContent=i18nDict.kcGasCharlesDesc[L];}
-                if(trs[3]){let tds=trs[3].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcGasIdeal[L]; if(tds[1]) tds[1].innerHTML=i18nDict.kcGasIdealForm[L]; if(tds[2]) tds[2].textContent=i18nDict.kcGasIdealCond[L]; if(tds[3]) tds[3].textContent=i18nDict.kcGasIdealDesc[L];}
-            }
-            let ps=gasCards[0].querySelectorAll('p');
-            if(ps[0]&&i18nDict.kcGasConstTitle) ps[0].innerHTML=i18nDict.kcGasConstTitle[L];
-            let constLis=gasCards[0].querySelectorAll('ul>li');
-            if(constLis[0]&&i18nDict.kcGasConstR) constLis[0].innerHTML=i18nDict.kcGasConstR[L];
-            if(constLis[1]&&i18nDict.kcGasSTP) constLis[1].innerHTML=i18nDict.kcGasSTP[L];
-            if(constLis[2]&&i18nDict.kcGasRTP) constLis[2].innerHTML=i18nDict.kcGasRTP[L];
-        }
-        // 氣體製備方法
-        if(gasCards[1]){
-            let h3=gasCards[1].querySelector('h3'); if(h3&&i18nDict.kcGasPrepTitle) h3.innerHTML=i18nDict.kcGasPrepTitle[L];
-            let table=gasCards[1].querySelector('table');
-            if(table){
-                let ths=table.querySelectorAll('th');
-                if(ths[0]) ths[0].textContent=i18nDict.kcGasPrepThGas[L];
-                if(ths[1]) ths[1].textContent=i18nDict.kcGasPrepThRxtn[L];
-                if(ths[2]) ths[2].textContent=i18nDict.kcGasPrepThMethod[L];
-                if(ths[3]) ths[3].textContent=i18nDict.kcGasPrepThProp[L];
-                let trs=table.querySelectorAll('tr');
-                if(trs[1]){let tds=trs[1].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcGasPrepH2[L]; if(tds[1]) tds[1].innerHTML=i18nDict.kcGasPrepH2Rxtn[L]; if(tds[2]) tds[2].innerHTML=i18nDict.kcGasPrepH2Method[L]; if(tds[3]) tds[3].textContent=i18nDict.kcGasPrepH2Prop[L];}
-                if(trs[2]){let tds=trs[2].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcGasPrepO2[L]; if(tds[1]) tds[1].innerHTML=i18nDict.kcGasPrepO2Rxtn[L]; if(tds[2]) tds[2].textContent=i18nDict.kcGasPrepO2Method[L]; if(tds[3]) tds[3].textContent=i18nDict.kcGasPrepO2Prop[L];}
-                if(trs[3]){let tds=trs[3].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcGasPrepCO2[L]; if(tds[1]) tds[1].innerHTML=i18nDict.kcGasPrepCO2Rxtn[L]; if(tds[2]) tds[2].innerHTML=i18nDict.kcGasPrepCO2Method[L]; if(tds[3]) tds[3].textContent=i18nDict.kcGasPrepCO2Prop[L];}
-                if(trs[4]){let tds=trs[4].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcGasPrepCl2[L]; if(tds[1]) tds[1].innerHTML=i18nDict.kcGasPrepCl2Rxtn[L]; if(tds[2]) tds[2].textContent=i18nDict.kcGasPrepCl2Method[L]; if(tds[3]) tds[3].textContent=i18nDict.kcGasPrepCl2Prop[L];}
-                if(trs[5]){let tds=trs[5].querySelectorAll('td'); if(tds[0]) tds[0].innerHTML=i18nDict.kcGasPrepNH3[L]; if(tds[1]) tds[1].innerHTML=i18nDict.kcGasPrepNH3Rxtn[L]; if(tds[2]) tds[2].innerHTML=i18nDict.kcGasPrepNH3Method[L]; if(tds[3]) tds[3].textContent=i18nDict.kcGasPrepNH3Prop[L];}
-            }
-        }
-        // 摩爾概念
-        if(gasCards[2]){
-            let h3=gasCards[2].querySelector('h3'); if(h3&&i18nDict.kcMoleTitle) h3.innerHTML=i18nDict.kcMoleTitle[L];
-            let lis=gasCards[2].querySelectorAll('>ul>li');
-            if(lis[0]&&i18nDict.kcMoleDef) lis[0].innerHTML=i18nDict.kcMoleDef[L];
-            if(lis[1]&&i18nDict.kcMoleMass) lis[1].innerHTML=i18nDict.kcMoleMass[L];
-            if(lis[2]){
-                lis[2].innerHTML=i18nDict.kcMoleVolTitle[L];
-                let sublis=lis[2].querySelectorAll('li');
-                if(sublis[0]&&i18nDict.kcMoleVolSTP) sublis[0].innerHTML=i18nDict.kcMoleVolSTP[L];
-                if(sublis[1]&&i18nDict.kcMoleVolRTP) sublis[1].innerHTML=i18nDict.kcMoleVolRTP[L];
-            }
-            if(lis[3]){
-                lis[3].innerHTML=i18nDict.kcMoleFormulaTitle[L];
-                let sublis=lis[3].querySelectorAll('li');
-                if(sublis[0]&&i18nDict.kcMoleF1) sublis[0].innerHTML=i18nDict.kcMoleF1[L];
-                if(sublis[1]&&i18nDict.kcMoleF2) sublis[1].innerHTML=i18nDict.kcMoleF2[L];
-                if(sublis[2]&&i18nDict.kcMoleF3) sublis[2].innerHTML=i18nDict.kcMoleF3[L];
-            }
+        // 原子結構卡片
+        const kcMap = [
+            ['atomic h3', 'kcAtomBasic'],
+            ['atomic p:first-of-type', 'kcAtomDef'],
+            ['atomic ul li:nth-child(1)', 'kcProton'],
+            ['atomic ul li:nth-child(2)', 'kcNeutron'],
+            ['atomic ul li:nth-child(3)', 'kcElectron'],
+        ];
+        // 電子排佈卡片 (第2張 knowledge-card 的內容)
+        // 由於知識卡片是靜態HTML，我們用ID或選擇器精確定位
+        const cards = document.querySelectorAll('.knowledge-card');
+        if (cards.length >= 3) {
+            // Card 1: 原子結構
+            let c0 = cards[0];
+            if (c0) { let h3=c0.querySelector('h3'); if(h3&&i18nDict.kcAtomBasic) h3.innerHTML=i18nDict.kcAtomBasic[currentLang]; }
+            // Card 2: 電子排佈
+            let c1 = cards[1]; if(c1){let h3=c1.querySelector('h3');if(h3&&i18nDict.kcEATitle) h3.innerHTML=i18nDict.kcEATitle[currentLang];}
+            // Card 3: 同位素
+            let c2 = cards[2]; if(c2){let h3=c2.querySelector('h3');if(h3&&i18nDict.kcIsotopeTitle) h3.innerHTML=i18nDict.kcIsotopeTitle[currentLang];}
         }
     }
 
@@ -3448,120 +2994,56 @@
 
     // --- 實驗步驟 i18n ---
     function experimentStepI18n() {
-        const L = currentLang;
         const stepData = [
-            {id:'ab-step1', titleKey:'expStep1Title', descKeys:['expStep1DescFull','expStep1Note'], opBtnKey:'opCheck', markId:'ab-mark1', sceneKey:'expSceneEquipReady'},
-            {id:'ab-step2', titleKey:'expStep2Title', descKeys:['expStep2DescFull','expStep2Note'], opBtnKey:'opDrop', markId:'ab-mark2', sceneKey:'expSceneDropPhenol'},
-            {id:'ab-step3', titleKey:'expStep3Title', descKeys:['expStep3DescFull','expStep3Note'], opBtnKey:'opShake', markId:'ab-mark3', sceneKey:'expSceneTitrating'},
-            {id:'ab-step4', titleKey:'expStep4Title', descKeys:['expStep4DescFull','expStep4Note'], opBtnKey:'opColor', markId:'ab-mark4', sceneKey:'expSceneEndpoint'},
+            {id:'ab-step1', titleKey:'expStep1Title', descKeys:['expStep1Desc1','expStep1Desc2'], opBtnKey:'opCheck', markId:'ab-mark1', sceneKey:'expSceneEquipReady'},
+            {id:'ab-step2', titleKey:'expStep2Title', descKeys:['expStep2Desc1','expStep2Desc2'], opBtnKey:'opDrop', markId:'ab-mark2', sceneKey:'expSceneDropPhenol'},
+            {id:'ab-step3', titleKey:'expStep3Title', descKeys:['expStep3Desc1','expStep3Desc2'], opBtnKey:'opShake', markId:'ab-mark3', sceneKey:'expSceneTitrating'},
+            {id:'ab-step4', titleKey:'expStep4Title', descKeys:['expStep4Desc1','expStep4Desc2'], opBtnKey:'opColor', markId:'ab-mark4', sceneKey:'expSceneEndpoint'},
             {id:'ab-step5', titleKey:'expStep5Title', descKeys:[], opBtnKey:'opHeat', markId:'ab-mark5', sceneKey:'expSceneHeat', hasEq:true, eqKey:'expStep5Eq'},
         ];
         stepData.forEach(sd => {
             const card = document.getElementById(sd.id);
             if (!card) return;
             const h4 = card.querySelector('h4');
-            if (h4 && sd.titleKey && i18nDict[sd.titleKey]) h4.innerHTML = i18nDict[sd.titleKey][L];
-            // 描述文字（p標籤）
-            if(sd.descKeys && sd.descKeys.length > 0){
-                let descs = card.querySelectorAll('.step-text p:not(.chem-equation)');
-                sd.descKeys.forEach((k, i) => {
-                    if(descs[i] && i18nDict[k]) descs[i].innerHTML = i18nDict[k][L];
-                });
-                // 處理 shake-animation 的 p（如果存在）
-                let shakeP = card.querySelector('.shake-animation');
-                if(shakeP && sd.id==='ab-step3' && i18nDict.expStep3Note) shakeP.innerHTML = i18nDict.expStep3Note[L];
-            }
+            if (h4 && sd.titleKey && i18nDict[sd.titleKey]) h4.innerHTML = i18nDict[sd.titleKey][currentLang];
             const btn = card.querySelector('.step-op-btn');
-            if (btn && sd.opBtnKey && i18nDict[sd.opBtnKey]) btn.textContent = i18nDict[sd.opBtnKey][L];
+            if (btn && sd.opBtnKey && i18nDict[sd.opBtnKey]) btn.textContent = i18nDict[sd.opBtnKey][currentLang];
             const mk = document.getElementById(sd.markId);
-            if (mk) mk.textContent = i18nDict['opDoneMark'][L];
+            if (mk) mk.textContent = i18nDict['opDoneMark'][currentLang];
             const sl = card.querySelector('.scene-label');
-            if (sl && sd.sceneKey && i18nDict[sd.sceneKey]) sl.textContent = i18nDict[sd.sceneKey][L];
+            if (sl && sd.sceneKey && i18nDict[sd.sceneKey]) sl.textContent = i18nDict[sd.sceneKey][currentLang];
             // 化學方程式
             if (sd.hasEq) {
                 const eqEl = card.querySelector('.chem-equation');
-                if (eqEl && i18nDict[sd.eqKey]) eqEl.innerHTML = i18nDict[sd.eqKey][L];
+                if (eqEl && i18nDict[sd.eqKey]) eqEl.innerHTML = i18nDict[sd.eqKey][currentLang];
             }
         });
-        // 氣體製備步驟 - 完整描述
+        // 氣體製備步驟
         const gasSteps = [
-            {id:'gas-step1', titleKey:'expGasH2Title', descKey:'expGasH2DescFull', sceneKey:'labSceneDrainage'},
-            {id:'gas-step2', titleKey:'expGasCO2Title', descKey:'expGasCO2DescFull', sceneKey:'labSceneLimeWater'},
-            {id:'gas-step3', titleKey:'expGasO2Title', descKey:'expGasO2DescFull', sceneKey:'labSceneMatchRelight'},
+            {id:'gas-step1', titleKey:'expGasH2Title', sceneKey:'labSceneDrainage'},
+            {id:'gas-step2', titleKey:'expGasCO2Title', sceneKey:'labSceneLimeWater'},
+            {id:'gas-step3', titleKey:'expGasO2Title', sceneKey:'labSceneMatchRelight'},
         ];
         gasSteps.forEach(gs => {
             const card = document.getElementById(gs.id);
             if (!card) return;
             const h4 = card.querySelector('h4');
-            if (h4 && gs.titleKey && i18nDict[gs.titleKey]) h4.innerHTML = i18nDict[gs.titleKey][L];
-            // 描述文字
-            if(gs.descKey){
-                let chemEq = card.querySelector('.chem-equation');
-                let descs = card.querySelectorAll('.step-text p');
-                descs.forEach(p => {
-                    // 跳過化學方程式的p
-                    if(chemEq && p === chemEq) return;
-                    // 匹配包含🔬或⚠️等開頭的描述
-                    let txt = p.textContent.trim();
-                    if((txt.startsWith('🔬')||txt.startsWith('⚠️')||txt.startsWith('💡')||txt.startsWith('🔥')) && i18nDict[gs.descKey]){
-                        p.innerHTML = i18nDict[gs.descKey][L];
-                    }
-                });
-            }
+            if (h4 && gs.titleKey && i18nDict[gs.titleKey]) h4.innerHTML = i18nDict[gs.titleKey][currentLang];
             const sl = card.querySelector('.scene-label');
-            if (sl && gs.sceneKey && i18nDict[gs.sceneKey]) sl.textContent = i18nDict[gs.sceneKey][L];
+            if (sl && gs.sceneKey && i18nDict[gs.sceneKey]) sl.textContent = i18nDict[gs.sceneKey][currentLang];
         });
-        // 電解步驟 - 完整描述
+        // 電解步驟
         const elecSteps = [
-            {id:'el-step1', titleKey:'expElecWaterTitle', descKey:'expElecWaterDescFull', sceneKey:'labSceneHoffman'},
-            {id:'el-step2', titleKey:'expElecBrineTitle', descKey:'expElecBrineDescFull', sceneKey:'labSceneMembrane'},
+            {id:'el-step1', titleKey:'expElecWaterTitle', sceneKey:'labSceneHoffman'},
+            {id:'el-step2', titleKey:'expElecBrineTitle', sceneKey:'labSceneMembrane'},
         ];
         elecSteps.forEach(es => {
             const card = document.getElementById(es.id);
             if (!card) return;
             const h4 = card.querySelector('h4');
-            if (h4 && es.titleKey && i18nDict[es.titleKey]) h4.innerHTML = i18nDict[es.titleKey][L];
-            if(es.descKey){
-                let chemEq = card.querySelector('.chem-equation');
-                let descs = card.querySelectorAll('.step-text p');
-                descs.forEach(p => {
-                    if(chemEq && p === chemEq) return;
-                    if(i18nDict[es.descKey] && (p.textContent.startsWith('📊')||p.textContent.startsWith('⚙️'))){
-                        p.innerHTML = i18nDict[es.descKey][L];
-                    }
-                });
-            }
+            if (h4 && es.titleKey && i18nDict[es.titleKey]) h4.innerHTML = i18nDict[es.titleKey][currentLang];
             const sl = card.querySelector('.scene-label');
-            if (sl && es.sceneKey && i18nDict[es.sceneKey]) sl.textContent = i18nDict[es.sceneKey][L];
-        });
-
-        // ===== SVG 內嵌中文標籤翻譯 =====
-        document.querySelectorAll('.scene-label').forEach(el => {
-            const txt = el.textContent.trim();
-            const svgLabelMap = {
-                '器材就位':'svgLabelEquipReady', '滴入酚酞指示劑':'svgLabelDropPhenol',
-                '滴定中...':'svgLabelTitrating', '終點 - 粉紅色':'svgLabelEndpoint',
-                '中和放熱':'svgLabelHeat', '排水集氣':'svgLabelDrainage',
-                'Zn + H₂SO₄ 反應':'svgLabelZnReact',
-                'CaCO₃ + HCl 反應':'svgLabelCaCO3React',
-                '石灰水':'svgLabelLimeWater', 'MnO₂ 催化分解':'svgLabelMnO2Decomp',
-                '帶火星木條復燃':'svgLabelMatchRelight',
-                '霍夫曼電解装置':'svgLabelHoffman', '隔膜式電解槽':'svgLabelMembrane',
-                '直流電源 DC':'svgLabelDCPower'
-            };
-            const key = svgLabelMap[txt];
-            if(key && i18nDict[key]) el.textContent = i18nDict[key][L];
-        });
-        // SVG text 元素中的中文
-        document.querySelectorAll('#experiment text, #experiment svg text').forEach(el => {
-            const txt = el.textContent.trim();
-            const svgTextMap = {
-                '陰極':'svgLabelCathode', '陽極':'svgLabelAnode',
-                '排水集氣':'svgLabelDrainage', '石灰水':'svgLabelLimeWater',
-                '帶火星木條復燃':'svgLabelMatchRelight'
-            };
-            const key = svgTextMap[txt];
-            if(key && i18nDict[key]) el.textContent = i18nDict[key][L];
+            if (sl && es.sceneKey && i18nDict[es.sceneKey]) sl.textContent = i18nDict[es.sceneKey][currentLang];
         });
     }
 
